@@ -1,0 +1,45 @@
+.go{cursor: pointer; }
+
+.action{cursor: pointer; }
+
+
+
+/*диалоговые окна*/
+.modal-body{
+	width: 600px;
+	margin: 10px auto;
+}
+.modal-body label{
+	width: 150px;
+	/*text-align: right;*/
+}
+.label-caption {
+	width: 100%;
+	margin: 10px;
+}
+.label-caption input {
+	width: calc(100% - 160px);
+}
+.area-text-block{
+	
+}
+.area-text-block textarea{
+	/*width: calc(100% - 160px);
+	max-width: calc(100% - 160px);
+	min-width: calc(100% - 160px);*/
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	height: 200px;
+}
+.footer-button-block{
+	width: 100%;
+	text-align: right;
+}
+.footer-button-block input[type=submit]{
+	border: 2px solid #6cae28;
+	padding: 5px 15px;
+}
+.footer-button-block input[type=submit]:hover{
+	border: 2px solid #4bbabf;
+}
